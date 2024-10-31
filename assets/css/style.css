@@ -1,0 +1,70 @@
+body {
+    background-color: #fefbf0;
+    
+}
+.navbar {
+    background-color: #1e8a7a;
+}
+.navbar-brand i {
+    margin-right: 8px; /* Adds space between the icon and text */
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.hero-section {
+    background-color: #fefbf0;
+    padding: 50px 0;
+}
+.hero-title {
+    font-size: 4rem;
+    color: #e67e22;
+}
+.hero-subtitle {
+    font-size: 3rem;
+    color: #1e8a7a;
+}
+.search-section {
+    background-color: white;
+    padding: 20px 0;
+}
+.btn-submit {
+    background-color: #008080;
+    border-color: #008080;
+}
+.btn-submit:hover {
+    background-color: #006666;
+    border-color: #006666;
+}
+h1,h3{
+    margin: 30px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #040404;
+    color: white;
+
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+main{
+    height: 130vh;
+}
+.footer {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 0;
+}
+.carousel-inner {
+    height: 350px; /* Set a fixed height for the carousel */
+    width: 550px;
+}
+
+.carousel-image {
+    height: 100%; /* Ensure images fill the height of the carousel */
+    width: 100%; /* Ensure images fill the width of the carousel */
+    object-fit: cover; /* Cover the entire area without distortion */
+    object-position: center; /* Center the image within its container */
+}
